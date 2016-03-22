@@ -40,7 +40,7 @@ int main()
 		BMI.setHeight(h_cm);
 		BMI.setBMI();
  		
-	    bmi = BMI.getBMI();	
+		bmi = BMI.getBMI();	
 		categ = BMI.getCategory();
 		
 		file_out << bmi << "  ";
